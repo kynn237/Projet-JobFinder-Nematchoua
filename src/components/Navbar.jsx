@@ -1,0 +1,18 @@
+import React from "react";
+import { NavLink } from "react-router-dom"                        
+
+export default function Navbar() {
+    return(
+    <nav className='navbar'>
+        <div className='nav-container'>
+          <div className='nav-brand'>🔎JobFinder</div >
+          <div className='nav-links'>
+            <NavLink to='/' end>Accueil</NavLink>
+            <a href="/#apropos">A propos</a>                              
+            <NavLink to='/offres' className={({isActive})=> isActive?'active':undefined}>Offres</NavLink>
+            <NavLink to= '/contact'>Contact</NavLink>
+          </div>
+        </div>
+      </nav>   
+      )                                                                                                                                                          
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
